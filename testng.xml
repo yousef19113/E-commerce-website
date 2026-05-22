@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Comprehensive Automation Suite">
+    <test name="End-To-End POM Functional Tests">
+        <classes>
+            <class name="pomtests.LoginPOMTest" />
+            <class name="pomtests.AdminPOMTest" />
+            <class name="pomtests.PIMPOMTest" />
+            <class name="pomtests.LeavePOMTest" />
+            <class name="pomtests.TimePOMTest" />
+        </classes>
+    </test>
+</suite>
